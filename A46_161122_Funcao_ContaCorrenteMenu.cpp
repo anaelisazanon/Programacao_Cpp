@@ -34,8 +34,6 @@ void mostrasaldo(){ //n coloca nada pq o valor já é universal
 
     //funcao sacar
 void saca(float valor){
-    
-    
     if (valor > saldo){
         cout << "Saldo insuficiente\n";
     }else{
@@ -43,10 +41,12 @@ void saca(float valor){
         cout << "Saque feito\n";
     }
 }
+
     //funcao menu
 void menu (){
     cout <<"\nDigite: D-depositar// S-sacar//E-sair";
     cin >> valormenu;
+    valormenu = toupper(valormenu); //para usar maisculo e minisculo
     
     while ((valormenu == 'D') or (valormenu == 'S')){ 
         switch (valormenu){
