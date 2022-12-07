@@ -1,5 +1,5 @@
 /******************************************************************************
-vetor , ordenar crescente
+vetor , ordenar crescente// algoritmo de ordenacao bubble sort
 *******************************************************************************/
 #include <iostream>
 
