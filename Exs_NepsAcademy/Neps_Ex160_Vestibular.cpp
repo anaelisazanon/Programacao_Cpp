@@ -1,4 +1,5 @@
-/*Vestibular:
+/*https://neps.academy/br/exercise/160
+Vestibular:
 Entrada
 A entrada contém um único conjunto de testes, que deve ser lido do dispositivo de entrada padrão. A primeira linha da entrada contém um único inteiro 
 N, indicando o número de questões da prova. A segunda linha da entrada contém uma cadeia de N caracteres, indicando o gabarito da prova. A terceira linha da entrada contém outra cadeia de 
